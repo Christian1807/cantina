@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(236, 240, 243);
+    background-image: url(c:/cantina/frontend/cantina/src/pagina/image/fundo.png);
+  }
+
+  img{
+    width: 100%;
+    height: 580px;
+  }
+
+  
+
+
+
+  .cadastro{
+      width: 400px;
+      height: 480px;
+      border: 1px solid black;
+      border-radius: 30px 30px 30px 30px;
+      color: #fff;
+      background-color: rgba(0, 0, 5, 0.452);
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 0px 3px;
+      font-size: 18px;
+ }
+
+
+ .menu ul li a{
+  background-color:  rgba(24, 23, 23, 0.493);
+  float: left;
+  color:  rgb(240, 240, 247);
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid black;
+  text-decoration:none;  
+}
+
+.menu ul li{
+  display: inline-block;
+  border-radius: 30px 30px 30px 30px;
+  
+}
+
+menu ul{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.menu ul li a:hover {
+  transition: 0.1s;
+  color: rgb(85, 30, 112);
+  background-color: rgba(129, 126, 126, 0.493);
+
+}
+
+  
+  h1 {
+    color: rgba(237, 241, 239, 0.815);
+    text-align: center;
+    
+  }
+  
+  button {
+    text-align-last: center;
+    align-self: start;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 5, 0.452);
+    color: rgb(252, 250, 250);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    height: 50px;
+    width: 220px;
+    font-size: 15px;
+      
+  }
+
+  button:hover {
+    transition: 0.2s;
+    color: rgb(85, 30, 112);
+    background-color: rgba(88, 86, 86, 0.493);
+  }
+
+  input{
+      align-self: start;
+      border-radius: 7px;
+      text-align: center;
+      height: 50px;
+      width: 220px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border: 1px solid black;
+      background-color: rgba(0, 0, 5, 0.452);
+
+      
+  }
+  input:hover{
+    transition: 0.2s;
+    background-color: rgba(88, 86, 86, 0.493);
+    color: rgb(85, 30, 112);
+  }
+
+  ::placeholder{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(250, 248, 250);
+      font-size: 15px;
+  }
+  ::placeholder :hover{
+    color: rgb(85, 30, 112);
+  }
+
+
+
+  
